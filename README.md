@@ -7,11 +7,11 @@ Relationship APP
 
 - Wireframe
 - ERD
-![relationships ERD](/Users/darrellvanfleet/Downloads/relationships ERD.png)
+![relationships ERD](./images/relationships ERD.png)
 
 
 
 - Color Style
-![](/Users/darrellvanfleet/Downloads/colors.png)
+![](./images/colors.png)
 
 -
