@@ -7,7 +7,7 @@ Relationship APP
 
 - Wireframe
 - ERD
-![relationships ERD](./images/relationships ERD.png)
+![](./images/relationships ERD.png)
 
 
 
