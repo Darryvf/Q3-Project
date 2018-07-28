@@ -1,17 +1,24 @@
-
 import React, { Component} from 'react'
-import { Text, View } from 'react-native'
 import Styles from './components/styles'
+import { createStackNavigator } from 'react-navigation'
+import Popup from './components/popup.js'
 
 
-class App extends Component {
+const RootStack = createStackNavigator(
+	{
+    Popup: Popup
+  },
+  {
+    initialRouteName: 'Popup'
+  },
+  {
+    headerMode: 'screen'
+  }
+)
+
+
+export default class App extends Component {
   render() {
-    return (
-      <View style={Styles.container}>
-        <Text >Welcome to React Native!</Text>
-      </View>
-    )
+    return <RootStack />
   }
 }
-
-export default App
