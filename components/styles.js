@@ -11,7 +11,6 @@ const Styles = {
   header : {
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'flex-end',
     paddingRight: 25,
@@ -130,12 +129,13 @@ spacerLarge: {
 
   couples: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'column'
   },
 
   profileToggle: {
-    flexDirection: 'row',
-    justifyContent: 'space-evenly',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
     paddingBottom: 40
   },
 
@@ -197,6 +197,39 @@ spacerLarge: {
 
   /** User Styles **/
 
+  user : {
+    paddingLeft: 20,
+    paddingRight: 20
+  },
+
+  userPic: {
+    backgroundColor: 'pink',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingBottom: 40
+  },
+
+  editPic: {
+    width: 20,
+    height: 20,
+    backgroundColor: 'black',
+    marginLeft: 30,
+    marginTop: -10
+  },
+
+  setting: {
+    flexDirection: 'row',
+  },
+
+  settingText: {
+    flex: 1
+  },
+
+  settingArrow: {
+    height: 10,
+    width: 10
+  },
 }
 
 export default Styles
