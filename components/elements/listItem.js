@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 import Button from 'react-native-button'
 import Styles from '../styles.js'
 
-class ButtonElement extends Component {
+class ListItem extends Component {
 
   constructor(props){
     super(props)
@@ -13,8 +13,8 @@ class ButtonElement extends Component {
 
     return (
       <Button
-        style={Styles.buttonText}
-        containerStyle={Styles.buttonBox}
+        style={Styles.listItemText}
+        containerStyle={Styles.listItemBox}
         onPress={()=> console.log('press is working')}
       >{this.props.text}
       </Button>
@@ -22,4 +22,4 @@ class ButtonElement extends Component {
   }
 }
 
-export default ButtonElement
+export default ListItem
