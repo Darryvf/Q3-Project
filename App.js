@@ -20,7 +20,7 @@ const RootStack = createStackNavigator(
 		GetFeedback: GetFeedback,
 	},
   {
-    initialRouteName: 'CreateList'
+    initialRouteName: 'GetFeedback'
   },
   {
     headerMode: 'screen'
