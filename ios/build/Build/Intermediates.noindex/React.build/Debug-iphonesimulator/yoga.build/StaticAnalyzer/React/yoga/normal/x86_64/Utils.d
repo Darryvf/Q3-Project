@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/Utils.cpp \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/YGConfig.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/Utils.cpp \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGConfig.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h

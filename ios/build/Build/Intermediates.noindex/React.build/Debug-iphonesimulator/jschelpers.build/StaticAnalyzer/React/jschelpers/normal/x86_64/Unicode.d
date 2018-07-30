@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/ReactCommon/jschelpers/Unicode.h
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/ReactCommon/jschelpers/Unicode.h
