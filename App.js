@@ -5,6 +5,7 @@ import Popup from './components/popup.js'
 import Login from './components/login.js'
 import Couple from './components/couple.js'
 import User from './components/user.js'
+import GetFeedback from './components/getfeedback.js'
 
 
 const RootStack = createStackNavigator(
@@ -13,9 +14,10 @@ const RootStack = createStackNavigator(
 		Login: Login,
 		Couple: Couple,
 		User: User,
+		GetFeedback: GetFeedback,
   },
   {
-    initialRouteName: 'User'
+    initialRouteName: 'GetFeedback'
   },
   {
     headerMode: 'screen'

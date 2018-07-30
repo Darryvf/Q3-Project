@@ -1,5 +1,3 @@
-// const workSans = require('typeface-work-sans')
-
 const Styles = {
 /** Screen Styles **/
   container : {
@@ -38,11 +36,6 @@ spacerLarge: {
   spacerSmall: {
     paddingTop: 5,
     paddingBottom: 5
-  },
-
-  spacerSlim: {
-    paddingLeft: 5,
-    paddingRight: 5
   },
 
   closeButton: {
@@ -133,8 +126,8 @@ spacerLarge: {
   },
 
   profileToggle: {
-    flexDirection: 'column',
-    justifyContent: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
     paddingBottom: 40
   },
@@ -214,7 +207,7 @@ spacerLarge: {
     width: 20,
     height: 20,
     backgroundColor: 'black',
-    marginLeft: 30,
+    marginLeft: 40,
     marginTop: -10
   },
 

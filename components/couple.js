@@ -16,10 +16,6 @@ class Couple extends Component {
     return (
       <View style={Styles.container}>
         <View style={Styles.header}>
-          <Image
-            style={Styles.closeButton}
-            source={require('../assets/img/CloseButton.png')}
-          />
         </View>
         <View style={Styles.body}>
           <View style={Styles.profileToggle}>
