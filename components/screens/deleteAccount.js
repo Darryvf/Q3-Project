@@ -4,7 +4,7 @@ import ButtonElement from '../elements/button.js'
 import Styles from '../styles.js'
 import Popup from '../reusables/popup.js'
 
-class RemovePartner extends Component {
+class DeleteAccount extends Component {
 
   constructor(props){
     super(props)
@@ -21,12 +21,13 @@ class RemovePartner extends Component {
     const { navigate } = this.props.navigation
     return (
       <Popup
-        header="Remove Partner"
-        content="Are you sure you want to delete your partner? They will lose access to all of your progress and feedback."
-        buttonText="Remove Partner"
+        header="Delete Account"
+        content="Are you sure you want to delete your account? All of your data will be removed, and your partner will also lose all feedback."
+        buttonText="Yes, Delete Account"
+        user={this.state.user}
         />
     )
   }
 }
 
-export default RemovePartner
+export default DeleteAccount

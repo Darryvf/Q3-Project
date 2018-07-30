@@ -5,12 +5,15 @@ import Styles from '../styles.js'
 
 class Popup extends Component {
 
+  constructor(props){
+    super(props)
+  }
+
   static navigationOptions = {
    header: null
  }
 
   render() {
-    const { navigate } = this.props.navigation
     return (
       <View style={Styles.container}>
         <View style={Styles.header}>
@@ -23,16 +26,16 @@ class Popup extends Component {
           <View style={Styles.popUp}>
             <Text
               style={Styles.h1}>
-              Remove Partner
+              {this.props.header}
             </Text>
             <View style={Styles.spacerMedium}></View>
             <Text
               style={Styles.pCenter}>
-              Are you sure you want to delete your partner? They will lose access to all of your progress and feedback.
+              {this.props.content}
             </Text>
             <View style={Styles.spacerMedium}></View>
-            <View>
-              <ButtonElement text="Remove Partner"/>
+            <View>{this.props.user ? <ButtonElement
+              text={this.props.buttonText}/> : <View></View>}
             </View>
           </View>
         </View>

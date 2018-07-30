@@ -4,12 +4,12 @@ import ButtonElement from '../elements/button.js'
 import Styles from '../styles.js'
 import Popup from '../reusables/popup.js'
 
-class RemovePartner extends Component {
+class ExpandedItemPartner extends Component {
 
   constructor(props){
     super(props)
     this.state = {
-      user: true
+      user: false
     }
   }
 
@@ -21,12 +21,13 @@ class RemovePartner extends Component {
     const { navigate } = this.props.navigation
     return (
       <Popup
-        header="Remove Partner"
-        content="Are you sure you want to delete your partner? They will lose access to all of your progress and feedback."
-        buttonText="Remove Partner"
+        header="Quality Time"
+        content="This is your place to enter the reasons why this particular behaviour is important for you to feel loved/unloved. It will provide your partner with the reasoning behind your feelings, and build empathy and understanding on this issue"
+        buttonText="Edit Reason"
+        user={this.state.user}
         />
     )
   }
 }
 
-export default RemovePartner
+export default ExpandedItemPartner

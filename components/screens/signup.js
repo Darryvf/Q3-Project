@@ -40,7 +40,8 @@ class SignUp extends Component {
             <View>
               <ButtonElement
                 text="SignUp"
-                screen='Popup'/>
+                screen='Popup'
+              />
             </View>
             <View style={Styles.spacerLarge}></View>
             <View style={Styles.spacerSmall}></View>
