@@ -4,11 +4,15 @@
 <dict>
 	<key>LastAccessedDate</key>
 <<<<<<< HEAD
+	<date>2018-07-30T15:42:51Z</date>
+=======
+<<<<<<< HEAD
 	<date>2018-07-30T14:46:37Z</date>
 =======
 	<date>2018-07-29T21:14:08Z</date>
 >>>>>>> c531a52f221138678e6216afe0c3b70773c590d8
+>>>>>>> 7c347eb12bf2f17d12aa58872e4f2449e8d76a3d
 	<key>WorkspacePath</key>
-	<string>/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/relationships.xcodeproj</string>
+	<string>/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/relationships.xcodeproj</string>
 </dict>
 </plist>
