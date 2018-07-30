@@ -84,12 +84,12 @@ spacerLarge: {
   },
 
   buttonText: {
-    color: '#0adeb3'
+    color: '#30E7CE'
   },
 
   buttonBox: {
     backgroundColor: 'white',
-    borderColor: '#0adeb3',
+    borderColor: '#30E7CE',
     borderWidth: 2,
     height: 50,
     width: 200,
@@ -183,8 +183,8 @@ spacerLarge: {
   },
 
   listItemBox: {
-    backgroundColor: '#0adeb3',
-    borderColor: '#0adeb3',
+    backgroundColor: '#30E7CE',
+    borderColor: '#30E7CE',
     borderWidth: 2,
     height: 40,
     width: 160,

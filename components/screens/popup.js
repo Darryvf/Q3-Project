@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
-import { Text, View, TextInput } from 'react-native'
-import ButtonElement from './elements/button.js'
-import Styles from './styles.js'
+import { Text, View, Image } from 'react-native'
+import ButtonElement from '../elements/button.js'
+import Styles from '../styles.js'
 
-class Login extends Component {
+class Popup extends Component {
 
   static navigationOptions = {
    header: null
@@ -14,28 +14,25 @@ class Login extends Component {
     return (
       <View style={Styles.container}>
         <View style={Styles.header}>
+          <Image
+            style={Styles.closeButton}
+            source={require('../../assets/img/CloseButton.png')}
+          />
         </View>
         <View style={Styles.body}>
           <View style={Styles.popUp}>
             <Text
               style={Styles.h1}>
-              Login
+              Remove Partner
             </Text>
             <View style={Styles.spacerMedium}></View>
-            <TextInput
-              placeholder='email'
-              style={Styles.textInput}>
-            </TextInput>
-            <View style={Styles.spacerSmall}></View>
-            <TextInput
-              placeholder='password'
-              style={Styles.textInput}>
-            </TextInput>
+            <Text
+              style={Styles.pCenter}>
+              Are you sure you want to delete your partner? They will lose access to all of your progress and feedback.
+            </Text>
             <View style={Styles.spacerMedium}></View>
             <View>
-              <ButtonElement
-                text="Login"
-                screen='Popup'/>
+              <ButtonElement text="Remove Partner"/>
             </View>
           </View>
         </View>
@@ -44,4 +41,4 @@ class Login extends Component {
   }
 }
 
-export default Login
+export default Popup

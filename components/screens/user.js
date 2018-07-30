@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import { Text, View, Image } from 'react-native'
-import ButtonElement from './elements/button.js'
-import ListItem from './elements/listItem.js'
-import Styles from './styles.js'
-import BottomNav from './elements/nav.js'
-import Setting from './elements/setting.js'
+import ButtonElement from '../elements/button.js'
+import ListItem from '../elements/listItem.js'
+import Styles from '../styles.js'
+import BottomNav from '../elements/nav.js'
+import Setting from '../elements/setting.js'
 
 class User extends Component {
 
@@ -24,7 +24,7 @@ class User extends Component {
             <View style={Styles.userPic}>
               <Image
                 style={Styles.profilePic}
-                source={require('../assets/img/partner1.jpg')}/>
+                source={require('../../assets/img/partner1.jpg')}/>
               <View style={Styles.editPic}></View>
               <View style={Styles.spacerMedium}></View>
               <Text>Aimee Roxanne</Text>
@@ -35,7 +35,7 @@ class User extends Component {
                 <Setting text="Loved List"/>
                 <Image
                   style={Styles.settingArrow}
-                  source={require('../assets/img/smRightArrow.png')}
+                  source={require('../../assets/img/smRightArrow.png')}
                 />
               </View>
               <View style={Styles.spacerMedium}></View>
@@ -43,7 +43,7 @@ class User extends Component {
                 <Setting text="Unloved List"/>
                 <Image
                   style={Styles.settingArrow}
-                  source={require('../assets/img/smRightArrow.png')}
+                  source={require('../../assets/img/smRightArrow.png')}
                 />
               </View>
               <View style={Styles.spacerMedium}></View>
@@ -51,7 +51,7 @@ class User extends Component {
                 <Setting text="Username, Email, Password"/>
                 <Image
                   style={Styles.settingArrow}
-                  source={require('../assets/img/smRightArrow.png')}
+                  source={require('../../assets/img/smRightArrow.png')}
                 />
               </View>
               <View style={Styles.spacerLarge}></View>
