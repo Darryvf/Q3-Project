@@ -15,8 +15,8 @@ class ButtonElement extends Component {
       <Button
         style={Styles.buttonText}
         containerStyle={Styles.buttonBox}
-        onPress={()=> console.log('press is working')}
-      >{this.props.text}
+        onPress={()=> this.props.press(this.props.screen) }
+      >{this.props.buttonText}
       </Button>
     )
   }
