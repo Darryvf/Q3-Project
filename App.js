@@ -17,7 +17,7 @@ const RootStack = createStackNavigator(
 		GetFeedback: GetFeedback,
   },
   {
-    initialRouteName: 'GetFeedback'
+    initialRouteName: 'Login'
   },
   {
     headerMode: 'screen'
