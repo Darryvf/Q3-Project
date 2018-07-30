@@ -8,16 +8,17 @@ import User from './components/user.js'
 import GetFeedback from './components/getfeedback.js'
 
 
+
 const RootStack = createStackNavigator(
 	{
     Popup: Popup,
 		Login: Login,
 		Couple: Couple,
 		User: User,
+		CreateList: CreateList,
 		GetFeedback: GetFeedback,
-  },
   {
-    initialRouteName: 'Login'
+    initialRouteName: 'CreateList'
   },
   {
     headerMode: 'screen'
