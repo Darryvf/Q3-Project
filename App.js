@@ -6,6 +6,8 @@ import Login from './components/login.js'
 import Couple from './components/couple.js'
 import User from './components/user.js'
 import CreateList from './components/createList.js'
+import GetFeedback from './components/getfeedback.js'
+
 
 
 const RootStack = createStackNavigator(
@@ -15,7 +17,8 @@ const RootStack = createStackNavigator(
 		Couple: Couple,
 		User: User,
 		CreateList: CreateList,
-  },
+		GetFeedback: GetFeedback,
+	},
   {
     initialRouteName: 'CreateList'
   },
