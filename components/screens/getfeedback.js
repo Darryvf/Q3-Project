@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import { Text, View, Image } from 'react-native'
-import ButtonElement from './elements/button.js'
-import Styles from './styles.js'
-import BottomNav from './elements/nav.js'
-import FeedbackItem from './elements/feedbackitem.js'
+import ButtonElement from '../elements/button.js'
+import Styles from '../styles.js'
+import BottomNav from '../elements/nav.js'
+import FeedbackItem from '../elements/feedbackitem.js'
 
 class GetFeedback extends Component {
 

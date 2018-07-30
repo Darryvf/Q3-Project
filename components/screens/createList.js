@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import { Text, TextInput, View, Image } from 'react-native'
-import ButtonElement from './elements/button.js'
-import ListItem from './elements/listItem.js'
-import Styles from './styles.js'
+import ButtonElement from '../elements/button.js'
+import ListItem from '../elements/listItem.js'
+import Styles from '../styles.js'
 
 class CreateList extends Component {
 
@@ -17,24 +17,22 @@ class CreateList extends Component {
         <View style={Styles.backHeader}>
           <Image
             style={Styles.backButton}
-            source={require('../assets/img/backButton.png')}
+            source={require('../../assets/img/backButton.png')}
           />
         </View>
         <View style={Styles.body}>
           <View style={Styles.createList}>
-            {/* <View style={Styles.spacerMedium}></View> */}
             <Text
               style={Styles.pCenter}>
               Build your Deposits list by choosing from some suggestions or creating your own.
             </Text>
-            {/* <View style={Styles.spacerMedium}></View> */}
           </View>
           <View style={Styles.createList}>
             <View>
               <View style={Styles.setting}>
                 <Image
                   style={Styles.circle}
-                  source={require('../assets/img/Circle_1.png')}
+                  source={require('../../assets/img/Circle_1.png')}
                 />
                 <ListItem
                   text="Quality Time"
@@ -45,7 +43,7 @@ class CreateList extends Component {
               <View style={Styles.setting}>
                 <Image
                   style={Styles.circle}
-                  source={require('../assets/img/Circle_2.png')}
+                  source={require('../../assets/img/Circle_2.png')}
                 />
                 <ListItem
                   text="Sexual Intimacy"
@@ -55,7 +53,7 @@ class CreateList extends Component {
               <View style={Styles.setting}>
                 <Image
                   style={Styles.circle}
-                  source={require('../assets/img/Circle_3.png')}
+                  source={require('../../assets/img/Circle_3.png')}
                 />
                 <ListItem
                   text="Alone Time"

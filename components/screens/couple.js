@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import { Text, View, Image } from 'react-native'
-import ButtonElement from './elements/button.js'
-import ListItem from './elements/listItem.js'
-import Styles from './styles.js'
-import BottomNav from './elements/nav.js'
+import ButtonElement from '../elements/button.js'
+import ListItem from '../elements/listItem.js'
+import Styles from '../styles.js'
+import BottomNav from '../elements/nav.js'
 
 class Couple extends Component {
 
@@ -21,11 +21,11 @@ class Couple extends Component {
           <View style={Styles.profileToggle}>
             <Image
               style={Styles.profilePic}
-              source={require('../assets/img/partner1.jpg')}
+              source={require('../../assets/img/partner1.jpg')}
             />
             <Image
               style={Styles.profilePic}
-              source={require('../assets/img/partner2.jpeg')}
+              source={require('../../assets/img/partner2.jpeg')}
             />
           </View>
           <View style={Styles.hr}></View>
@@ -33,12 +33,12 @@ class Couple extends Component {
           <View style={Styles.posNeg}>
             <Image
               style={Styles.plusMinus}
-              source={require('../assets/img/plus.png')}
+              source={require('../../assets/img/plus.png')}
             />
             <View style={Styles.spacerSlim}></View>
             <Image
               style={Styles.plusMinus}
-              source={require('../assets/img/minus.png')}
+              source={require('../../assets/img/minus.png')}
             />
           </View>
           <View style={Styles.spacerLarge}></View>
