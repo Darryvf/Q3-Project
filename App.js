@@ -1,7 +1,8 @@
 import React, { Component} from 'react'
 import Styles from './components/styles'
 import { createStackNavigator } from 'react-navigation'
-import Popup from './components/screens/popup.js'
+import Popup from './components/reusables/popup.js'
+import RemovePartner from './components/screens/removePartner.js'
 import SignUp from './components/screens/signup.js'
 import Couple from './components/screens/couple.js'
 import User from './components/screens/user.js'
@@ -18,7 +19,7 @@ const RootStack = createStackNavigator(
 		GetFeedback: GetFeedback,
 	},
   {
-    initialRouteName: 'GetFeedback'
+    initialRouteName: 'Popup'
   },
   {
     headerMode: 'screen'
