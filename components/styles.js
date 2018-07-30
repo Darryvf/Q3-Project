@@ -16,6 +16,14 @@ const Styles = {
     paddingRight: 25,
     paddingTop: 25
   },
+  backHeader : {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    // justifyContent: 'flex-end',
+    paddingLeft: 25,
+    paddingTop: 25
+  },
 
   body : {
     flex: 8,
@@ -50,6 +58,11 @@ spacerLarge: {
     width: 20
   },
 
+  backButton: {
+    height: 20,
+    width: 20
+  },
+
   hr: {
     borderTopWidth: 1,
     borderTopColor: 'black',
@@ -74,6 +87,7 @@ spacerLarge: {
   pCenter: {
     paddingBottom: 20,
     textAlign: 'center',
+    padding: 10,
   },
 
   buttonText: {
@@ -124,7 +138,15 @@ spacerLarge: {
     padding: 30,
     textAlign: 'center',
     },
-
+  /** Create List Styles **/
+  createList:{
+    flexbox: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 15,
+    textAlign: 'center',
+    },
   /** Couple Styles **/
 
   couples: {
@@ -229,6 +251,11 @@ spacerLarge: {
   settingArrow: {
     height: 10,
     width: 10
+  },
+//wireframe shows icon as h: 41; w: 41 but visually looks off
+  circle: {
+    height: 31,
+    width: 31,
   },
 }
 
