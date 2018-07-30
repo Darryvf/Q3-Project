@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
-  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h

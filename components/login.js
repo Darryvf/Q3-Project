@@ -22,15 +22,15 @@ class Login extends Component {
               Login
             </Text>
             <View style={Styles.spacerMedium}></View>
-              <TextInput
-                placeholder='email'
-                style={Styles.textInput}>
-              </TextInput>
-              <View style={Styles.spacerSmall}></View>
-              <TextInput
-                placeholder='password'
-                style={Styles.textInput}>
-              </TextInput>
+            <TextInput
+              placeholder='email'
+              style={Styles.textInput}>
+            </TextInput>
+            <View style={Styles.spacerSmall}></View>
+            <TextInput
+              placeholder='password'
+              style={Styles.textInput}>
+            </TextInput>
             <View style={Styles.spacerMedium}></View>
             <View>
               <ButtonElement
