@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/Conv.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/StringBase.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/raw_logging.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/signalhandler.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/dynamic.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/utilities.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/MallocImpl.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/Bits.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/symbolize.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/vlog_is_on.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/Unicode.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/demangle-7B942820D95A2665.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/Demangle-A25D07C72C2EFF53.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/logging.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/json.o
+/Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/BitsFunctexcept.o
+=======
 /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/Conv.o
 /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/StringBase.o
 /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/raw_logging.o
@@ -14,3 +32,4 @@
 /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/logging.o
 /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/json.o
 /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/Objects-normal/x86_64/BitsFunctexcept.o
+>>>>>>> 18ad21115cb64cf42db7ecbdebe474d916ca8f36
