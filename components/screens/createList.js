@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Text, TextInput, View, Image } from 'react-native'
+import { Text, TextInput, View, Dropdown, Picker, Button, Image } from 'react-native'
 import ButtonElement from '../elements/button.js'
 import ListItem from '../elements/listItem.js'
 import Styles from '../styles.js'
@@ -34,10 +34,10 @@ class CreateList extends Component {
                   style={Styles.circle}
                   source={require('../../assets/img/Circle_1.png')}
                 />
+                <View style={Styles.sideSpacerSmall}></View>
                 <ListItem
                   text="Quality Time"
-                  screen='CreateList'
-                />
+                  screen='CreateList'/>
               </View>
               <View style={Styles.spacerSmall}></View>
               <View style={Styles.setting}>
@@ -45,6 +45,7 @@ class CreateList extends Component {
                   style={Styles.circle}
                   source={require('../../assets/img/Circle_2.png')}
                 />
+                <View style={Styles.sideSpacerSmall}></View>
                 <ListItem
                   text="Sexual Intimacy"
                   screen='CreateList'/>
@@ -55,6 +56,7 @@ class CreateList extends Component {
                   style={Styles.circle}
                   source={require('../../assets/img/Circle_3.png')}
                 />
+                <View style={Styles.sideSpacerSmall}></View>
                 <ListItem
                   text="Alone Time"
                   screen='CreateList'/>
@@ -63,10 +65,7 @@ class CreateList extends Component {
           </View>
           <View style={Styles.spacerLarge}></View>
           <View style={Styles.createList}>
-            <TextInput
-              placeholder='Deposit Suggestions'
-              style={Styles.textInput}>
-            </TextInput>
+
             <View style={Styles.spacerSmall}></View>
             <TextInput
               placeholder='Create your own...'
