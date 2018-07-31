@@ -41,6 +41,7 @@ const RootStack = createStackNavigator(
 		Couple: Couple,
 		User: User,
 		CreateList: CreateList,
+		EditList: EditList,
 		AddDescription: AddDescription,
 		GetFeedback: GetFeedback,
 		RemovePartner: RemovePartner,
