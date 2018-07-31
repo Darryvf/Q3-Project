@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
