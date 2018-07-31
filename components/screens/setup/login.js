@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Text, View, TextInput } from 'react-native'
+import { Text, View, TextInput, TouchableOpacity } from 'react-native'
 import ButtonElement from '../../elements/button.js'
 import Styles from '../../styles.js'
 import SetupForm from '../../reusables/setupForm.js'
@@ -52,8 +52,14 @@ class Login extends Component {
                 screen="Couple"
               />
             </View>
-            <View style={Styles.spacerLarge}></View>
             <View style={Styles.spacerSmall}></View>
+            <View style={Styles.spacerLarge}></View>
+            <TouchableOpacity
+              onPress={ () => navigate('SignUp')}>
+               <Text>Don't have an account? Signup.</Text>
+
+
+            </TouchableOpacity>
           </View>
         </View>
       </View>
