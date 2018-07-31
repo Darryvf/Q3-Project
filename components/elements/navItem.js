@@ -11,7 +11,8 @@ class NavItem extends Component {
   render() {
 
     return (
-      <TouchableOpacity style={Styles.navItem}>
+      <TouchableOpacity style={Styles.navItem}
+      onPress={() => this.props.press(this.props.screen)}>
         <Image
           style={Styles.navIcon}
           source={this.props.src}/>

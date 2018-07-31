@@ -13,9 +13,18 @@ class BottomNav extends Component {
 
     return (
       <View style={Styles.navigation}>
-        <NavItem src={require('../../assets/img/couple.png')}/>
-        <NavItem src={require('../../assets/img/feedback.png')}/>
-        <NavItem src={require('../../assets/img/settings.png')}/>
+        <NavItem
+          press={this.props.press}
+          screen="Couple"
+          src={require('../../assets/img/couple.png')}/>
+        <NavItem
+          press={this.props.press}
+          screen="GetFeedback"
+          src={require('../../assets/img/feedback.png')}/>
+        <NavItem
+          press={this.props.press}
+          screen="User"
+          src={require('../../assets/img/settings.png')}/>
       </View>
     )
   }

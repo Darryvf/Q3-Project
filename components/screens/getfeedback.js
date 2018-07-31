@@ -26,7 +26,9 @@ class GetFeedback extends Component {
           <View style={Styles.spacerLarge}></View>
           <Text>Withdrawals</Text>
         </View>
-        <BottomNav />
+        <BottomNav
+          press={navigate}
+          />
       </View>
     )
   }

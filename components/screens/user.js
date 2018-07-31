@@ -66,7 +66,8 @@ class User extends Component {
               </View>
             </View>
           </View>
-        <BottomNav />
+        <BottomNav
+          press={navigate}/>
       </View>
     )
   }
