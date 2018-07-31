@@ -73,7 +73,7 @@ class Couple extends Component {
           <View style={Styles.spacerLarge}></View>
             <View style={Styles.sendFeedback}>
               <ButtonElement
-                text="Send Feedback"
+                buttonText="Send Feedback"
                 screen='Popup'/>
             </View>
         </View>

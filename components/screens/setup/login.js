@@ -24,6 +24,10 @@ class Login extends Component {
       header="Login"
       buttonText="Login"
       account={this.state.account}
+      press={navigate}
+      screen="Couple"
+      back="SignUp"
+      login="Don't have an account? Sign in."
       />
     )
   }

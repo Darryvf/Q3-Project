@@ -14,6 +14,7 @@ const Styles = {
     paddingRight: 25,
     paddingTop: 25
   },
+
   backHeader : {
     flex: 1,
     flexDirection: 'row',
@@ -62,7 +63,7 @@ spacerLarge: {
   },
 
   textInput: {
-    color: 'pink',
+    color: 'black',
     borderWidth: 1,
     borderRadius: 2,
     borderColor: 'grey',
@@ -75,7 +76,13 @@ spacerLarge: {
     color: 'black',
     fontSize: 28,
     paddingBottom: 20
-    },
+  },
+
+  h2: {
+    color: 'black',
+    fontSize: 18,
+    paddingBottom: 10
+  },
 
   pCenter: {
     paddingBottom: 20,
@@ -112,13 +119,15 @@ spacerLarge: {
     height: 50,
     borderRightWidth: 1,
     borderRightColor: 'black',
-    flexDirection: 'row',
-    alignItems: 'center'
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 
-  navText: {
-    flex: 1,
-    textAlign: 'center',
+  navIcon: {
+    // flex: 1,
+    width: 75,
+    height: 75
   },
 
   /** Popup Styles **/
@@ -130,6 +139,18 @@ spacerLarge: {
     justifyContent: 'center',
     padding: 30,
     textAlign: 'center',
+    },
+
+    addDescription: {
+      height: 150,
+      width: 300,
+      borderWidth: 1,
+      borderRadius: 2,
+      borderColor: 'grey',
+      paddingLeft: 15,
+      paddingTop: 15,
+      paddingRight: 15,
+      paddingBottom: 15,
     },
   /** Create List Styles **/
   createList:{
@@ -245,7 +266,26 @@ spacerLarge: {
     height: 10,
     width: 10
   },
-//wireframe shows icon as h: 41; w: 41 but visually looks off
+
+// Give Feedback
+
+  giveFeedback: {
+    flexDirection: 'column',
+    // alignItems: 'center',
+    // justifyContent: 'center'
+  },
+
+  sliderContainer: {
+
+  },
+
+  giveText: {
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+
+// Create list
+
   circle: {
     height: 31,
     width: 31,
