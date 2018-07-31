@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
-  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
+  /Users/darrellvanfleet/g89/Q3/Q3-Project/node_modules/react-native/React/Base/RCTMultipartStreamReader.h

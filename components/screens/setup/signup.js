@@ -1,19 +1,60 @@
 import React, {Component} from 'react'
-import { Text, View, TextInput, TouchableOpacity } from 'react-native'
+import { Text, View, TextInput, TouchableOpacity, TouchableHighlight } from 'react-native'
 import ButtonElement from '../../elements/button.js'
 import Styles from '../../styles.js'
 import SetupForm from '../../reusables/setupForm.js'
+import Button from 'react-native-button'
+import t from 'tcomb-form-native'
+
+
+const Form = t.form.Form
+
+const Email = t.refinement(t.String, email => {
+  const reg = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
+  return reg.test(email)
+})
+
+var Options = {
+  fields: {
+    password: {
+      password: true,
+      secureTextEntry: true
+    }
+  }
+}
+
+const User = t.struct({
+  username: t.String,
+  email: Email,
+  password: t.String,
+})
 
 class SignUp extends Component {
 
   constructor(props){
     super(props)
-    this.state = {}
+    this.state = {
+      email: '',
+      username: '',
+      password: '',
+      error: '',
+      loading: false,
+      }
   }
 
   static navigationOptions = {
    header: null
  }
+
+  onChange() {
+
+   }
+
+   onSubmit = () => {
+     const value = this._form.getValue()
+     console.log("value", value)
+
+  }
 
   render() {
 
@@ -31,39 +72,26 @@ class SignUp extends Component {
             </Text>
             <View style={Styles.spacerMedium}></View>
 
-            <TextInput
-              placeholder='email'
-              style={Styles.textInput}>
-            </TextInput>
-
-            <View style={Styles.spacerSmall}></View>
-
-            <TextInput
-              placeholder='username'
-              style={Styles.textInput}>
-            </TextInput>
-
-            <View style={Styles.spacerSmall}></View>
-
-            <TextInput
-              placeholder='password'
-              style={Styles.textInput}
-              secureTextEntry={true}>
-            </TextInput>
-
+            <Form
+              options={Options}
+              ref={c => this._form = c}
+              type={User}
+            />
+            <Button
+              title='SignUp'
+              containerStyle={Styles.buttonBox}
+              onPress={this.onSubmit}
+              style={Styles.buttonText}
+            />
             <View style={Styles.spacerMedium}></View>
 
             <View>
-              <ButtonElement
-                buttonText="Signup"
-                press={navigate}
-                screen="Couple"
-              />
+
             </View>
             <View style={Styles.spacerSmall}></View>
             <View style={Styles.spacerLarge}></View>
             <TouchableOpacity
-              onPress={ () => navigate('Login')}>
+              onPress={() => navigate('Login')}>
                <Text>Already have an account? Login.</Text>
 
 

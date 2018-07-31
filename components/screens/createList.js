@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
-import { Text, TextInput, View, Dropdown, Picker, Button, Image } from 'react-native'
+import { Text, TextInput, Button, View, Image } from 'react-native'
 import ButtonElement from '../elements/button.js'
 import ListItem from '../elements/listItem.js'
 import Styles from '../styles.js'
+import RNPickerSelect from 'react-native-picker-select';
 
 class CreateList extends Component {
 
@@ -10,9 +11,34 @@ class CreateList extends Component {
    header: null
  }
 
+ constructor(props) {
+     super(props);
+
+     this.state = {
+         gives: '',
+         items: [
+             {
+                 label: 'Quality Time',
+                 value: 'Quality Time',
+             },
+             {
+                 label: 'Sexual Intimacy',
+                 value: 'Sexual Intimacy',
+             },
+             {
+                 label: 'Alone Time',
+                 value: 'Alone Time',
+             },
+         ],
+     };
+ }
+
+
   render() {
-    const { navigate } = this.props.navigation
+
     return (
+
+
       <View style={Styles.container}>
         <View style={Styles.backHeader}>
           <Image
@@ -35,9 +61,18 @@ class CreateList extends Component {
                   source={require('../../assets/img/Circle_1.png')}
                 />
                 <View style={Styles.sideSpacerSmall}></View>
-                <ListItem
-                  text="Quality Time"
-                  screen='CreateList'/>
+                <View style={Styles.buttonBox}>
+                  <RNPickerSelect
+                    items={this.state.items}
+                    onValueChange={(value) => {
+                      this.setState({
+                        gives: value,
+                      });
+                    }}
+                    >
+                        </RNPickerSelect>
+                    </View>
+
               </View>
               <View style={Styles.spacerSmall}></View>
               <View style={Styles.setting}>
@@ -46,9 +81,18 @@ class CreateList extends Component {
                   source={require('../../assets/img/Circle_2.png')}
                 />
                 <View style={Styles.sideSpacerSmall}></View>
-                <ListItem
-                  text="Sexual Intimacy"
-                  screen='CreateList'/>
+                <View style={Styles.buttonBox}>
+                  <RNPickerSelect
+                    items={this.state.items}
+                    onValueChange={(value) => {
+                      this.setState({
+                        gives: value,
+                      });
+                    }}
+                    >
+                        </RNPickerSelect>
+                    </View>
+
               </View>
               <View style={Styles.spacerSmall}></View>
               <View style={Styles.setting}>
@@ -57,9 +101,17 @@ class CreateList extends Component {
                   source={require('../../assets/img/Circle_3.png')}
                 />
                 <View style={Styles.sideSpacerSmall}></View>
-                <ListItem
-                  text="Alone Time"
-                  screen='CreateList'/>
+                <View style={Styles.buttonBox}>
+                  <RNPickerSelect
+                    items={this.state.items}
+                    onValueChange={(value) => {
+                      this.setState({
+                        gives: value,
+                      });
+                    }}
+                    >
+                        </RNPickerSelect>
+                    </View>
               </View>
             </View>
           </View>
@@ -79,6 +131,8 @@ class CreateList extends Component {
       </View>
     )
   }
+
 }
+
 
 export default CreateList

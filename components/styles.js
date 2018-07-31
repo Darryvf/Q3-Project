@@ -322,6 +322,11 @@ spacerLarge: {
     paddingLeft: 5,
     paddingRight: 5,
   },
+  RNPickerSelect: {
+    color: 'blue',
+    fontSize: 36,
+
+  }
 }
 
 
