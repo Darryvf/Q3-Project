@@ -317,14 +317,7 @@ spacerLarge: {
     height: 31,
     width: 31,
   },
-<<<<<<< HEAD
 
-=======
-// <<<<<<< HEAD
-// =======
-//
-// >>>>>>> 18ad21115cb64cf42db7ecbdebe474d916ca8f36
->>>>>>> c052576e027745fcc5b1db6943bdc682dc705c52
   sideSpacerSmall: {
     paddingLeft: 5,
     paddingRight: 5,
