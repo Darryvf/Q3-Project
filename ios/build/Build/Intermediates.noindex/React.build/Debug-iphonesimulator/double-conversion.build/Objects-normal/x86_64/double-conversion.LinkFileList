@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum-dtoa.o
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum.o
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/cached-powers.o
@@ -7,13 +6,3 @@
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fast-dtoa.o
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fixed-dtoa.o
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/strtod.o
-=======
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum-dtoa.o
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum.o
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/cached-powers.o
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/diy-fp.o
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/double-conversion.o
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fast-dtoa.o
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fixed-dtoa.o
-/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/strtod.o
->>>>>>> 18ad21115cb64cf42db7ecbdebe474d916ca8f36
