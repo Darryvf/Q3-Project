@@ -84,6 +84,10 @@ spacerLarge: {
     paddingBottom: 10
   },
 
+  highlight: {
+    fontWeight: '700'
+  },
+
   pCenter: {
     paddingBottom: 20,
     textAlign: 'center',
@@ -270,18 +274,41 @@ spacerLarge: {
 // Give Feedback
 
   giveFeedback: {
+    flex: 1,
     flexDirection: 'column',
-    // alignItems: 'center',
-    // justifyContent: 'center'
+    justifyContent: 'center',
+    padding: 10
   },
 
   sliderContainer: {
-
+    // flexDirection: 'row'
   },
 
-  giveText: {
+  slider: {
+    maximumTrackTintColor: 'pink'
+  },
+
+  giveHeader: {
     flexDirection: 'column',
     alignItems: 'center',
+    textAlign: 'center'
+  },
+
+  giveCenter: {
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+
+  giveScore: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 5
+  },
+
+  smile: {
+    height: 20,
+    width: 20,
   },
 
 // Create list
@@ -290,15 +317,7 @@ spacerLarge: {
     height: 31,
     width: 31,
   },
-  picker: {
-    color: 'blue',
-    borderWidth: 1,
-    borderRadius: 2,
-    borderColor: 'grey',
-    width: 120,
-    height: 15,
-    padding: 10,
-  },
+
   sideSpacerSmall: {
     paddingLeft: 5,
     paddingRight: 5,

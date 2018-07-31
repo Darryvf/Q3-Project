@@ -10,7 +10,8 @@ import User from './components/screens/user.js'
 import CreateList from './components/screens/createList.js'
 import EditList from './components/screens/editList.js'
 import GetFeedback from './components/screens/getfeedback.js'
-import GiveFeedback1 from './components/screens/giveFeedback1.js'
+import Give1 from './components/screens/giveFeedback/give1.js'
+import Give2 from './components/screens/giveFeedback/give2.js'
 
 // Setup
 
@@ -29,8 +30,6 @@ import ExpandedItemUser from './components/screens/popups/expandedItemUser.js'
 import ExpandedItemPartner from './components/screens/popups/expandedItemPartner.js'
 
 
-
-
 const RootStack = createStackNavigator(
 	{
     Popup: Popup,
@@ -41,17 +40,19 @@ const RootStack = createStackNavigator(
 		Couple: Couple,
 		User: User,
 		CreateList: CreateList,
+		EditList: EditList,
 		AddDescription: AddDescription,
 		GetFeedback: GetFeedback,
 		RemovePartner: RemovePartner,
 		DeleteAccount: DeleteAccount,
 		ExpandedItemUser: ExpandedItemUser,
 		ExpandedItemPartner: ExpandedItemPartner,
-		GiveFeedback1: GiveFeedback1,
+		Give1: Give1,
+		Give2: Give2,
 
 	},
   {
-    initialRouteName: 'EditList'
+    initialRouteName: 'SignUp',
   },
   {
     headerMode: 'screen'

@@ -8,9 +8,7 @@ class SignUp extends Component {
 
   constructor(props){
     super(props)
-    this.state = {
-      account: 'signup'
-    }
+    this.state = {}
   }
 
   static navigationOptions = {
@@ -18,22 +16,54 @@ class SignUp extends Component {
  }
 
   render() {
+
     const { navigate } = this.props.navigation
 
-    // const press = () => {
-    //   navigate('AddPartner')
-    // }
-
     return (
-      <SetupForm
-      header="Signup"
-      buttonText="Signup"
-      account={this.state.account}
-      press={navigate}
-      screen="AddPartner"
-      back="Login"
-      login="Already have an account? Login."
-      />
+      <View style={Styles.container}>
+        <View style={Styles.header}>
+        </View>
+        <View style={Styles.body}>
+          <View style={Styles.popUp}>
+            <Text
+              style={Styles.h1}>
+              Signup
+            </Text>
+            <View style={Styles.spacerMedium}></View>
+
+            <TextInput
+              placeholder='email'
+              style={Styles.textInput}>
+            </TextInput>
+
+            <View style={Styles.spacerSmall}></View>
+
+            <TextInput
+              placeholder='username'
+              style={Styles.textInput}>
+            </TextInput>
+
+            <View style={Styles.spacerSmall}></View>
+
+            <TextInput
+              placeholder='password'
+              style={Styles.textInput}
+              secureTextEntry={true}>
+            </TextInput>
+
+            <View style={Styles.spacerMedium}></View>
+
+            <View>
+              <ButtonElement
+                buttonText="Signup"
+                press={navigate}
+                screen="Couple"
+              />
+            </View>
+            <View style={Styles.spacerSmall}></View>
+          </View>
+        </View>
+      </View>
     )
   }
 }

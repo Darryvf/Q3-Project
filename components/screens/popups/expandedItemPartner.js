@@ -25,6 +25,8 @@ class ExpandedItemPartner extends Component {
         content="This is your place to enter the reasons why this particular behaviour is important for you to feel loved/unloved. It will provide your partner with the reasoning behind your feelings, and build empathy and understanding on this issue"
         buttonText="Edit Reason"
         user={this.state.user}
+        press={navigate}
+        back="Couple"
         />
     )
   }
