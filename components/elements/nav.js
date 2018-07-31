@@ -13,10 +13,9 @@ class BottomNav extends Component {
 
     return (
       <View style={Styles.navigation}>
-        <NavItem words="Couple"/>
-        <NavItem words="Feedback"/>
-        <NavItem words="Progress"/>
-        <NavItem words="Settings"/>
+        <NavItem src={require('../../assets/img/couple.png')}/>
+        <NavItem src={require('../../assets/img/feedback.png')}/>
+        <NavItem src={require('../../assets/img/settings.png')}/>
       </View>
     )
   }

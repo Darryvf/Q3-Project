@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Text, View, TextInput } from 'react-native'
+import { Text, View, TextInput, TouchableOpacity } from 'react-native'
 import ButtonElement from '../elements/button.js'
 import Styles from '../styles.js'
 
@@ -62,7 +62,12 @@ class SetupForm extends Component {
             </View>
             <View style={Styles.spacerLarge}></View>
             <View style={Styles.spacerSmall}></View>
-            {this.props.account === 'signup' ? <Text>Already have an account? Login.</Text> : <View></View> }
+            <TouchableOpacity
+              onPress={ () => this.props.press(this.props.back)}>
+              {this.props.account === 'addPartner' ? <View></View> : this.props.account === 'editAccount' ? <View></View> : <Text>{this.props.login}</Text> }
+
+
+            </TouchableOpacity>
           </View>
         </View>
       </View>

@@ -31,6 +31,8 @@ class SignUp extends Component {
       account={this.state.account}
       press={navigate}
       screen="AddPartner"
+      back="Login"
+      login="Already have an account? Login."
       />
     )
   }

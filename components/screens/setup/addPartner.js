@@ -24,6 +24,8 @@ class AddPartner extends Component {
       header="Add Your Partner"
       buttonText="Add Partner"
       account={this.state.account}
+      press={navigate}
+      screen="Couple"
       />
     )
   }

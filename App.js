@@ -9,6 +9,7 @@ import Couple from './components/screens/couple.js'
 import User from './components/screens/user.js'
 import CreateList from './components/screens/createList.js'
 import GetFeedback from './components/screens/getfeedback.js'
+import GiveFeedback1 from './components/screens/giveFeedback1.js'
 
 // Setup
 
@@ -16,6 +17,7 @@ import SignUp from './components/screens/setup/signup.js'
 import Login from './components/screens/setup/login.js'
 import AddPartner from './components/screens/setup/addPartner.js'
 import EditAccount from './components/screens/setup/editAccount.js'
+import AddDescription from './components/screens/setup/addDescription.js'
 
 
 // Popups
@@ -38,11 +40,14 @@ const RootStack = createStackNavigator(
 		Couple: Couple,
 		User: User,
 		CreateList: CreateList,
+		AddDescription: AddDescription,
 		GetFeedback: GetFeedback,
 		RemovePartner: RemovePartner,
 		DeleteAccount: DeleteAccount,
 		ExpandedItemUser: ExpandedItemUser,
 		ExpandedItemPartner: ExpandedItemPartner,
+		GiveFeedback1: GiveFeedback1,
+
 	},
   {
     initialRouteName: 'SignUp'
