@@ -8,6 +8,7 @@ import Popup from './components/reusables/popup.js'
 import Couple from './components/screens/couple.js'
 import User from './components/screens/user.js'
 import CreateList from './components/screens/createList.js'
+import EditList from './components/screens/editList.js'
 import GetFeedback from './components/screens/getfeedback.js'
 import GiveFeedback1 from './components/screens/giveFeedback1.js'
 
@@ -50,7 +51,7 @@ const RootStack = createStackNavigator(
 
 	},
   {
-    initialRouteName: 'SignUp'
+    initialRouteName: 'EditList'
   },
   {
     headerMode: 'screen'

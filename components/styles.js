@@ -290,6 +290,20 @@ spacerLarge: {
     height: 31,
     width: 31,
   },
+  picker: {
+    color: 'blue',
+    borderWidth: 1,
+    borderRadius: 2,
+    borderColor: 'grey',
+    width: 120,
+    height: 15,
+    padding: 10,
+  },
+  sideSpacerSmall: {
+    paddingLeft: 5,
+    paddingRight: 5,
+  },
 }
+
 
 export default Styles
