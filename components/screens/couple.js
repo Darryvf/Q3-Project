@@ -46,38 +46,52 @@ class Couple extends Component {
             <View style={Styles.listHalf1}>
               <ListItem
                 text="Quality Time"
-                screen='Popup'/>
+                press={navigate}
+                screen="ExpandedItemUser"
+                back="Couple"/>
               <View style={Styles.spacerSmall}></View>
               <ListItem
                 text="Sexual Intimacy"
-                screen='Popup'/>
+                press={navigate}
+                screen='ExpandedItemUser'
+                back="Couple"/>
                 <View style={Styles.spacerSmall}></View>
               <ListItem
                 text="Alone Time"
-                screen='Popup'/>
+                press={navigate}
+                screen='ExpandedItemUser'
+                back="Couple"/>
             </View>
             <View style={Styles.listHalf2}>
               <ListItem
                 text="Intense Anger"
-                screen='Popup'/>
+                press={navigate}
+                screen='ExpandedItemUser'
+                back="Couple"/>
                 <View style={Styles.spacerSmall}></View>
               <ListItem
                 text="Not Contributing"
-                screen='Popup'/>
+                press={navigate}
+                screen='ExpandedItemUser'
+                back="Couple"/>
                 <View style={Styles.spacerSmall}></View>
               <ListItem
                 text="Work Too Much"
-                screen='Popup'/>
+                press={navigate}
+                screen='ExpandedItemUser'
+                />
             </View>
           </View>
           <View style={Styles.spacerLarge}></View>
             <View style={Styles.sendFeedback}>
               <ButtonElement
                 buttonText="Send Feedback"
-                screen='Popup'/>
+                press={navigate}
+                screen='Give1'/>
             </View>
         </View>
-        <BottomNav />
+        <BottomNav
+          press={navigate}/>
       </View>
     )
   }
