@@ -1,4 +1,5 @@
 dependencies: \
+<<<<<<< HEAD
   /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Text/Text/RCTTextView.m \
   /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Text/Text/RCTTextView.h \
   /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
@@ -23,3 +24,29 @@ dependencies: \
   /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
   /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
   /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Text/RCTTextTransform.h
+=======
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/Text/RCTTextView.m \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/Text/RCTTextView.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/RCTTextTransform.h
+>>>>>>> 1f5e8a0b79dbee20983a15dcdc8cef3ba37be31d
