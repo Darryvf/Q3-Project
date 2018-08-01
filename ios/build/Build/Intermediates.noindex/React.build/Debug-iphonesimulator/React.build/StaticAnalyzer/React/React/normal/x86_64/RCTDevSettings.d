@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Modules/RCTDevSettings.mm \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Modules/RCTDevSettings.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTBridge+Private.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Profiler/RCTProfile.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

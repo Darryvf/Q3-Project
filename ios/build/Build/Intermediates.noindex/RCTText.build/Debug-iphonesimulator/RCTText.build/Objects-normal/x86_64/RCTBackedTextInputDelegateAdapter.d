@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.m \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.m \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h
