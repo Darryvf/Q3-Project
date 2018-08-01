@@ -1,5 +1,18 @@
 dependencies: \
 <<<<<<< HEAD
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/Utils.cpp \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/YGConfig.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/YGFloatOptional.h \
+  /Users/aimeezawacki/code/q3/Q3-project/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h
+=======
+<<<<<<< HEAD
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/Utils.cpp \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
@@ -38,3 +51,4 @@ dependencies: \
   /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h
 >>>>>>> 18ad21115cb64cf42db7ecbdebe474d916ca8f36
 >>>>>>> e97a660828513ef5b086e861b75cfcadc391a3df
+>>>>>>> 353c872356ccf3552f7e0b17821dbeb3c760d6b4

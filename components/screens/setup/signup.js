@@ -14,13 +14,19 @@ const Email = t.refinement(t.String, email => {
   return reg.test(email)
 })
 
+t.form.Form.stylesheet.textbox.normal.color = 'black'
+t.form.Form.stylesheet.textbox.normal.width = 300
+t.form.Form.stylesheet.textbox.normal.borderRadius = 3
+t.form.Form.stylesheet.controlLabel.normal.display = 'none'
+
 var Options = {
   fields: {
     password: {
       password: true,
       secureTextEntry: true
     }
-  }
+  },
+  auto: 'placeholders'
 }
 
 const User = t.struct({
@@ -53,7 +59,6 @@ class SignUp extends Component {
    onSubmit = () => {
      const value = this._form.getValue()
      console.log("value", value)
-
   }
 
   render() {
@@ -80,7 +85,7 @@ class SignUp extends Component {
             <Button
               title='SignUp'
               containerStyle={Styles.buttonBox}
-              onPress={this.onSubmit}
+              onPress={() => navigate('AddPartner')}
               style={Styles.buttonText}
             />
             <View style={Styles.spacerMedium}></View>
@@ -93,8 +98,6 @@ class SignUp extends Component {
             <TouchableOpacity
               onPress={() => navigate('Login')}>
                <Text>Already have an account? Login.</Text>
-
-
             </TouchableOpacity>
           </View>
         </View>

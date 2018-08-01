@@ -3,6 +3,36 @@ import { Text, View, TextInput, TouchableOpacity } from 'react-native'
 import ButtonElement from '../../elements/button.js'
 import Styles from '../../styles.js'
 import SetupForm from '../../reusables/setupForm.js'
+import t from 'tcomb-form-native'
+
+
+const Form = t.form.Form
+
+const Email = t.refinement(t.String, email => {
+  const reg = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
+  return reg.test(email)
+})
+
+t.form.Form.stylesheet.textbox.normal.color = 'black'
+t.form.Form.stylesheet.textbox.normal.width = 300
+t.form.Form.stylesheet.textbox.normal.borderRadius = 3
+t.form.Form.stylesheet.controlLabel.normal.display = 'none'
+
+var Options = {
+  fields: {
+    password: {
+      password: true,
+      secureTextEntry: true
+    }
+  },
+  auto: 'placeholders'
+}
+
+const User = t.struct({
+  username: t.String,
+  password: t.String,
+})
+
 
 class Login extends Component {
 
@@ -31,18 +61,11 @@ class Login extends Component {
             </Text>
             <View style={Styles.spacerMedium}></View>
 
-            <TextInput
-              placeholder='username'
-              style={Styles.textInput}>
-            </TextInput>
-
-            <View style={Styles.spacerSmall}></View>
-
-            <TextInput
-              placeholder='password'
-              style={Styles.textInput}
-              secureTextEntry={true}>
-            </TextInput>
+            <Form
+              options={Options}
+              ref={c => this._form = c}
+              type={User}
+            />
 
             <View style={Styles.spacerMedium}></View>
             <View>

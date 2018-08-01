@@ -7,7 +7,7 @@ import { createStackNavigator } from 'react-navigation'
 import Popup from './components/reusables/popup.js'
 import Couple from './components/screens/couple.js'
 import User from './components/screens/user.js'
-import CreateList from './components/screens/createList.js'
+import CreateList1 from './components/createList/createList1.js'
 import EditList from './components/screens/editList.js'
 import GetFeedback from './components/screens/getfeedback.js'
 import Give1 from './components/screens/giveFeedback/give1.js'
@@ -39,7 +39,7 @@ const RootStack = createStackNavigator(
 		EditAccount: EditAccount,
 		Couple: Couple,
 		User: User,
-		CreateList: CreateList,
+		CreateList1: CreateList1,
 		EditList: EditList,
 		AddDescription: AddDescription,
 		GetFeedback: GetFeedback,
@@ -52,7 +52,7 @@ const RootStack = createStackNavigator(
 
 	},
   {
-    initialRouteName: 'RemovePartner',
+    initialRouteName: 'Login',
   },
   {
     headerMode: 'screen'

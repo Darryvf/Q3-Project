@@ -3,8 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>LastAccessedDate</key>
+<<<<<<< HEAD
+	<date>2018-08-01T15:41:51Z</date>
+	<key>WorkspacePath</key>
+	<string>/Users/aimeezawacki/code/q3/Q3-project/ios/relationships.xcodeproj</string>
+=======
 	<date>2018-07-31T22:27:18Z</date>
 	<key>WorkspacePath</key>
 	<string>/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/relationships.xcodeproj</string>
+>>>>>>> 353c872356ccf3552f7e0b17821dbeb3c760d6b4
 </dict>
 </plist>

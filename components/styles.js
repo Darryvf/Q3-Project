@@ -19,7 +19,6 @@ const Styles = {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    // justifyContent: 'flex-end',
     paddingLeft: 25,
     paddingTop: 25
   },
