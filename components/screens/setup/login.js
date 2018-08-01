@@ -57,8 +57,6 @@ class Login extends Component {
             <TouchableOpacity
               onPress={ () => navigate('SignUp')}>
                <Text>Don't have an account? Signup.</Text>
-
-
             </TouchableOpacity>
           </View>
         </View>

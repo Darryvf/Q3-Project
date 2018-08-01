@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Text, View, Image } from 'react-native'
+import { Text, View, Image, TouchableOpacity } from 'react-native'
 import ButtonElement from '../elements/button.js'
 import ListItem from '../elements/listItem.js'
 import Styles from '../styles.js'
@@ -57,13 +57,17 @@ class User extends Component {
               <View style={Styles.spacerLarge}></View>
               <View style={Styles.hr}></View>
               <View style={Styles.spacerLarge}></View>
-              <View style={Styles.setting}>
-                <Setting text="Delete Partner"/>
-              </View>
+              <TouchableOpacity
+                  style={Styles.setting}
+                  onPress={ () => navigate('RemovePartner')}>
+                    <Setting text="Remove Partner"/>
+              </TouchableOpacity>
               <View style={Styles.spacerMedium}></View>
-              <View style={Styles.setting}>
-                <Setting text="Delete Account"/>
-              </View>
+              <TouchableOpacity
+                  style={Styles.setting}
+                  onPress={ () => navigate('DeleteAccount')}>
+                    <Setting text="Delete Account"/>
+              </TouchableOpacity>
             </View>
           </View>
         <BottomNav

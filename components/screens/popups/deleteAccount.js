@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import { Text, View, Image } from 'react-native'
-import ButtonElement from '../../elements/button.js'
+import { Text, View, Image, TouchableOpacity } from 'react-native'
+import Button from 'react-native-button'
 import Styles from '../../styles.js'
 import Popup from '../../reusables/popup.js'
 
@@ -20,12 +20,39 @@ class DeleteAccount extends Component {
   render() {
     const { navigate } = this.props.navigation
     return (
-      <Popup
-        header="Delete Account"
-        content="Are you sure you want to delete your account? All of your data will be removed, and your partner will also lose all feedback."
-        buttonText="Yes, Delete Account"
-        user={this.state.user}
-        />
+
+      <View style={Styles.container}>
+        <View style={Styles.header}>
+          <TouchableOpacity
+            onPress={() => navigate('User')}
+            >
+            <Image
+              style={Styles.closeButton}
+              source={require('../../../assets/img/CloseButton.png')}
+            />
+          </TouchableOpacity>
+        </View>
+        <View style={Styles.body}>
+          <View style={Styles.popUp}>
+            <Text
+              style={Styles.h1}>
+              Delete Account
+            </Text>
+            <View style={Styles.spacerMedium}></View>
+            <Text
+              style={Styles.pCenter}>
+              Are you sure you want to delete your account? All of your data will be removed, and your partner will also lose all feedback.
+            </Text>
+            <View style={Styles.spacerMedium}></View>
+            <Button
+              style={Styles.buttonText}
+              containerStyle={Styles.buttonBox}
+              onPress={ ()=> this.onSubmit() }>
+              Yes, Delete Account
+            </Button>
+          </View>
+        </View>
+      </View>
     )
   }
 }
