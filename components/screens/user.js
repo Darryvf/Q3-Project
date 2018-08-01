@@ -31,29 +31,35 @@ class User extends Component {
             </View>
             <View style={Styles.hr}></View>
             <View style={Styles.spacerLarge}></View>
-              <View style={Styles.setting}>
-                <Setting text="Loved List"/>
-                <Image
-                  style={Styles.settingArrow}
-                  source={require('../../assets/img/smRightArrow.png')}
-                />
-              </View>
+            <TouchableOpacity
+                style={Styles.setting}
+                onPress={ () => navigate('GetFeedback')}>
+                  <Setting text="Loved List"/>
+                  <Image
+                    style={Styles.settingArrow}
+                    source={require('../../assets/img/smRightArrow.png')}
+                  />
+            </TouchableOpacity>
               <View style={Styles.spacerMedium}></View>
-              <View style={Styles.setting}>
-                <Setting text="Unloved List"/>
-                <Image
-                  style={Styles.settingArrow}
-                  source={require('../../assets/img/smRightArrow.png')}
-                />
-              </View>
+              <TouchableOpacity
+                  style={Styles.setting}
+                  onPress={ () => navigate('GetFeedback')}>
+                    <Setting text="Unloved List"/>
+                    <Image
+                      style={Styles.settingArrow}
+                      source={require('../../assets/img/smRightArrow.png')}
+                    />
+              </TouchableOpacity>
               <View style={Styles.spacerMedium}></View>
-              <View style={Styles.setting}>
-                <Setting text="Username, Email, Password"/>
-                <Image
-                  style={Styles.settingArrow}
-                  source={require('../../assets/img/smRightArrow.png')}
-                />
-              </View>
+              <TouchableOpacity
+                  style={Styles.setting}
+                  onPress={ () => navigate('EditAccount')}>
+                    <Setting text="Username, Email, Password"/>
+                    <Image
+                      style={Styles.settingArrow}
+                      source={require('../../assets/img/smRightArrow.png')}
+                    />
+              </TouchableOpacity>
               <View style={Styles.spacerLarge}></View>
               <View style={Styles.hr}></View>
               <View style={Styles.spacerLarge}></View>
