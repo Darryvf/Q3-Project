@@ -52,7 +52,7 @@ const RootStack = createStackNavigator(
 
 	},
   {
-    initialRouteName: 'SignUp',
+    initialRouteName: 'RemovePartner',
   },
   {
     headerMode: 'screen'
