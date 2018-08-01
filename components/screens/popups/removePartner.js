@@ -18,6 +18,7 @@ class RemovePartner extends Component {
   }
 
   onSubmit = async () => {
+    const { navigate } = this.props.navigation
     const deleteCouple = await
       fetch('https://relationship-backend.herokuapp.com/api/couples/2', {
       method: 'DELETE',
@@ -27,6 +28,7 @@ class RemovePartner extends Component {
      }
    }).then(response => {
      console.log("couple to be deleted:", response)
+     navigate('User')
    })
 
  }
@@ -34,15 +36,6 @@ class RemovePartner extends Component {
   render() {
     const { navigate } = this.props.navigation
     return (
-      // <Popup
-      //   header="Remove Partner"
-      //   content="Are you sure you want to delete your partner? They will lose access to all of your progress and feedback."
-      //   buttonText="Remove Partner"
-      //   press={navigate}
-      //   back="User"
-      //   user={this.state.user}
-      //   onPress={()=> this.onSubmit() }
-      //   />
         <View style={Styles.container}>
           <View style={Styles.header}>
             <TouchableOpacity
