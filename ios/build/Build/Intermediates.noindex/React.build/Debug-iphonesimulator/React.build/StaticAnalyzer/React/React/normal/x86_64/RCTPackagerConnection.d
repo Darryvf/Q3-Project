@@ -1,4 +1,30 @@
 dependencies: \
+<<<<<<< HEAD
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerConnection.mm \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTBundleURLProvider.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/../Libraries/WebSocket/RCTSRWebSocket.h
+=======
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerConnection.mm \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/Base/RCTDefines.h \
@@ -23,3 +49,4 @@ dependencies: \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/React/../Libraries/WebSocket/RCTSRWebSocket.h
+>>>>>>> 1f5e8a0b79dbee20983a15dcdc8cef3ba37be31d

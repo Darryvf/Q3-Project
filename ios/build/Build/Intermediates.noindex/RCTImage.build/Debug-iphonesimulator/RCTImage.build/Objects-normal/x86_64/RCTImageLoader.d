@@ -1,4 +1,34 @@
 dependencies: \
+<<<<<<< HEAD
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Image/RCTImageLoader.m \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTImageLoader.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Image/RCTImageUtils.h
+=======
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Image/RCTImageLoader.m \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
@@ -27,3 +57,4 @@ dependencies: \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Image/RCTImageCache.h \
   /Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/node_modules/react-native/Libraries/Image/RCTImageUtils.h
+>>>>>>> 1f5e8a0b79dbee20983a15dcdc8cef3ba37be31d
