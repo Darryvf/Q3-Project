@@ -1,16 +1,16 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTConvert.m \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTConvert.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTAnimationType.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTPointerEvents.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTImageSource.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTParserUtils.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTConvert.m \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTImageSource.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTParserUtils.h

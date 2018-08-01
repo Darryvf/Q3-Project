@@ -1,24 +1,24 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Blob/RCTFileReaderModule.m \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Blob/RCTFileReaderModule.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Blob/RCTBlobManager.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Blob/RCTFileReaderModule.m \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Blob/RCTFileReaderModule.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Blob/RCTBlobManager.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h

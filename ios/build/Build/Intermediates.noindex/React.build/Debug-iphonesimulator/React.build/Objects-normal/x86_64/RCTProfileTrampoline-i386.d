@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Profiler/RCTProfileTrampoline-i386.S \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Profiler/RCTMacros.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Profiler/RCTProfileTrampoline-i386.S \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Profiler/RCTMacros.h

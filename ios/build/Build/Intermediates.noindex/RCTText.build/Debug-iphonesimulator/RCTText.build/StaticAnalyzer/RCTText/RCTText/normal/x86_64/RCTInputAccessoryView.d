@@ -1,16 +1,16 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.m \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTouchHandler.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/aimeezawacki/code/q3/relationships/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.m \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTouchHandler.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h

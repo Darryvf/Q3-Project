@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/ios/relationships/main.m \
-  /Users/aimeezawacki/code/q3/relationships/ios/relationships/AppDelegate.h
+  /Users/robin/g89/projects/q3/Q3-Project/ios/relationships/main.m \
+  /Users/robin/g89/projects/q3/Q3-Project/ios/relationships/AppDelegate.h

@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/Surface/RCTSurfaceRootView.mm \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/Surface/RCTSurfaceRootView.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTView.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Views/RCTPointerEvents.h \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTDefines.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/Surface/RCTSurfaceRootView.mm \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/Surface/RCTSurfaceRootView.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTView.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTDefines.h

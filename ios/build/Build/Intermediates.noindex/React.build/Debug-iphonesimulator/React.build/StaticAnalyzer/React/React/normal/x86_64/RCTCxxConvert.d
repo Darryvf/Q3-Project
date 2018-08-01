@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTCxxConvert.m \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/React/Base/RCTCxxConvert.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTCxxConvert.m \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/React/Base/RCTCxxConvert.h

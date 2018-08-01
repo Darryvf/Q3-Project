@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/fishhook/fishhook.c \
-  /Users/aimeezawacki/code/q3/relationships/node_modules/react-native/Libraries/fishhook/fishhook.h
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/fishhook/fishhook.c \
+  /Users/robin/g89/projects/q3/Q3-Project/node_modules/react-native/Libraries/fishhook/fishhook.h
