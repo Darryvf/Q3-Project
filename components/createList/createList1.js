@@ -60,49 +60,37 @@ class CreateList1 extends Component {
       newFeeling.description = this.state.description
     }
 
-    console.log('working')
+      const response1 = await fetch('http://localhost:3000/api/feelings', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newFeeling)
+      })
 
-    const sendNewFeeling = await fetch('https://relationship-backend.herokuapp.com/api/feelings/', {
+
+    let response1JSON = await response1.json()
+
+
+    const newUserFeeling = {
+      user_id: 1,
+      feeling_id: response1JSON[0]
+    }
+
+
+    const response2 = await fetch('http://localhost:3000/api/users/1/feelings', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(newFeeling)
-    }).then(response1 => {
+        body: JSON.stringify(newUserFeeling)
+      })
 
-        console.log(response1)
+      let response2JSON = await response2.json()
+      console.log(response2)
 
-        const newUserFeeling = {
-          user_id: 1,
-          feeling_id: response1.id
-        }
-
-        // const sendFeeling = await fetch('https://relationship-backend.herokuapp.com/api/feelings/', {
-        //   method: 'POST',
-        //   headers: {
-        //     Accept: 'application/json',
-        //     'Content-Type': 'application/json'
-        //   },
-        //   body: JSON.stringify(newFeeling)
-        // }).then(response2 => {
-        //
-        //   console.log(response2)
-        //
-        //   const newUserFeeling = {
-        //     user_id: 1,
-        //     feeling_id: json.id
-        //   }
-        //
-        //   return json
-        // }).catch(e => {
-        //   return e
-        // })
-
-      return
-    }).catch(e => {
-      return e
-    })
   }
 
   render() {
@@ -119,7 +107,7 @@ class CreateList1 extends Component {
             </Text>
             <Text
               style={Styles.pCenter}>
-              What are the top 3 things that make you feel loved, respected and wanted. Please comment on why each item is important to you, based on your past.
+              What are the top 3 things that make you feel loved, respected and wanted? Give a description on why this is important to you, based on your passed experiences.
             </Text>
             <View style={Styles.setting}>
               <View style={Styles.dropdown}>
@@ -155,7 +143,7 @@ class CreateList1 extends Component {
 
             <TextInput
               multiline={true}
-              placeholder='Provide a description'
+              placeholder='Provide a description. These items may be things your partner used to provide but stopped, is currently providing, or has never provided but you’d love it if they did.'
               style={Styles.addDescription}
               onChangeText={(value) => {
                 this.setState({
