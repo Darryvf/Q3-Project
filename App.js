@@ -4,10 +4,19 @@ import { createStackNavigator } from 'react-navigation'
 
 // Screens
 
-import Popup from './components/reusables/popup.js'
 import Couple from './components/screens/couple.js'
 import User from './components/screens/user.js'
+
+
 import CreateList1 from './components/createList/createList1.js'
+import CreateList2 from './components/createList/createList2.js'
+import CreateList3 from './components/createList/createList3.js'
+import CreateList4 from './components/createList/createList4.js'
+import CreateList5 from './components/createList/createList5.js'
+import CreateList6 from './components/createList/createList6.js'
+
+
+import Popup from './components/reusables/popup.js'
 import EditList from './components/screens/editList.js'
 import GetFeedback from './components/screens/getfeedback.js'
 import Give1 from './components/screens/giveFeedback/give1.js'
@@ -40,6 +49,11 @@ const RootStack = createStackNavigator(
 		Couple: Couple,
 		User: User,
 		CreateList1: CreateList1,
+		CreateList2: CreateList2,
+		CreateList3: CreateList3,
+		CreateList4: CreateList4,
+		CreateList5: CreateList5,
+		CreateList6: CreateList6,
 		EditList: EditList,
 		AddDescription: AddDescription,
 		GetFeedback: GetFeedback,
@@ -51,7 +65,7 @@ const RootStack = createStackNavigator(
 		Give2: Give2
 	},
   {
-    initialRouteName: 'CreateList1'
+    initialRouteName: 'Couple'
   },
   {
     headerMode: 'screen'
