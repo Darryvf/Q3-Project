@@ -62,7 +62,8 @@ const RootStack = createStackNavigator(
 		ExpandedItemUser: ExpandedItemUser,
 		ExpandedItemPartner: ExpandedItemPartner,
 		Give1: Give1,
-		Give2: Give2
+		Give2: Give2,
+
 	},
   {
     initialRouteName: 'Couple'
