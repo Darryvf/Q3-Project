@@ -1,3 +1,9 @@
-/Users/aimeezawacki/code/q3/relationships/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/AppDelegate.o
-/Users/aimeezawacki/code/q3/relationships/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/main.o
-/Users/aimeezawacki/code/q3/relationships/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/relationships_vers.o
+<<<<<<< HEAD
+/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/AppDelegate.o
+/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/main.o
+/Users/robin/g89/projects/q3/Q3-Project/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/relationships_vers.o
+=======
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/AppDelegate.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/main.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/relationships.build/Debug-iphonesimulator/relationships.build/Objects-normal/x86_64/relationships_vers.o
+>>>>>>> 1f5e8a0b79dbee20983a15dcdc8cef3ba37be31d

@@ -17,6 +17,22 @@ class DeleteAccount extends Component {
    header: null
  }
 
+ onSubmit = async () => {
+   const { navigate } = this.props.navigation
+   const deleteUser = await
+    fetch('https://relationship-backend.herokuapp.com/api/users/1', {
+      method: 'DELETE',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+     }
+   }).then(response => {
+     console.log("user deleted:", response)
+     navigate('SignUp')
+   })
+
+ }
+
   render() {
     const { navigate } = this.props.navigation
     return (
