@@ -8,11 +8,38 @@ import BottomNav from '../elements/nav.js'
 class Couple extends Component {
 
   static navigationOptions = {
-   header: null
- }
+    header: null
+  }
+
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      feelings: []
+    }
+  }
+
+  async componentWillMount() {
+
+    const response = await fetch('http://localhost:3000/api/users/1/feelings/')
+    const responseJSON = await response.json()
+    const feelings = responseJSON.data
+
+    let items = []
+
+    feelings.map((feeling) => {
+      let obj = {
+        name: feeling.name,
+        description: feeling.description
+      }
+      items.push(obj)
+    })
+    this.setState({feelings: feelings})
+  }
 
   render() {
     const { navigate } = this.props.navigation
+    console.log("state", this.state)
     return (
       <View style={Styles.container}>
         <View style={Styles.header}>

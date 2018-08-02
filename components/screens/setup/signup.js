@@ -85,9 +85,9 @@ class SignUp extends Component {
             <Button
               title='SignUp'
               containerStyle={Styles.buttonBox}
-              onPress={() => navigate('AddPartner')}
+              onPress={() => navigate('CreateList1')}
               style={Styles.buttonText}
-            />
+            >SignUp</Button>
             <View style={Styles.spacerMedium}></View>
 
             <View>
