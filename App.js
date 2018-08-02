@@ -48,16 +48,10 @@ const RootStack = createStackNavigator(
 		ExpandedItemUser: ExpandedItemUser,
 		ExpandedItemPartner: ExpandedItemPartner,
 		Give1: Give1,
-		Give2: Give2,
-
+		Give2: Give2
 	},
   {
-<<<<<<< HEAD
     initialRouteName: 'CreateList1'
-=======
-    initialRouteName: 'GetFeedback',
-
->>>>>>> b44d284c3925d20f95d7058692180af7e303232e
   },
   {
     headerMode: 'screen'

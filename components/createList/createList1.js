@@ -60,47 +60,37 @@ class CreateList1 extends Component {
       newFeeling.description = this.state.description
     }
 
-    const sendNewFeeling = await fetch('http://localhost:3000/api/feelings', {
+      const response1 = await fetch('http://localhost:3000/api/feelings', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newFeeling)
+      })
+
+
+    let response1JSON = await response1.json()
+
+
+    const newUserFeeling = {
+      user_id: 1,
+      feeling_id: response1JSON[0]
+    }
+
+
+    const response2 = await fetch('http://localhost:3000/api/users/1/feelings', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(newFeeling)
-    }).then(response1 => {
+        body: JSON.stringify(newUserFeeling)
+      })
 
-        console.log(response1._bodyInit.id)
+      let response2JSON = await response2.json()
+      console.log(response2)
 
-        const newUserFeeling = {
-          user_id: 1,
-          feeling_id: response1.id
-        }
-
-        // const sendFeeling = await fetch('https://relationship-backend.herokuapp.com/api/feelings/', {
-        //   method: 'POST',
-        //   headers: {
-        //     Accept: 'application/json',
-        //     'Content-Type': 'application/json'
-        //   },
-        //   body: JSON.stringify(newFeeling)
-        // }).then(response2 => {
-        //
-        //   console.log(response2)
-        //
-        //   const newUserFeeling = {
-        //     user_id: 1,
-        //     feeling_id: json.id
-        //   }
-        //
-        //   return json
-        // }).catch(e => {
-        //   return e
-        // })
-
-      return
-    }).catch(e => {
-      return e
-    })
   }
 
   render() {
