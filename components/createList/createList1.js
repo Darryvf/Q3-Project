@@ -60,9 +60,7 @@ class CreateList1 extends Component {
       newFeeling.description = this.state.description
     }
 
-    console.log('working')
-
-    const sendNewFeeling = await fetch('https://relationship-backend.herokuapp.com/api/feelings/', {
+    const sendNewFeeling = await fetch('http://localhost:3000/api/feelings', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -71,7 +69,7 @@ class CreateList1 extends Component {
       body: JSON.stringify(newFeeling)
     }).then(response1 => {
 
-        console.log(response1)
+        console.log(response1._bodyInit.id)
 
         const newUserFeeling = {
           user_id: 1,
@@ -119,7 +117,7 @@ class CreateList1 extends Component {
             </Text>
             <Text
               style={Styles.pCenter}>
-              What are the top 3 things that make you feel loved, respected and wanted. Please comment on why each item is important to you, based on your past.
+              What are the top 3 things that make you feel loved, respected and wanted? Give a description on why this is important to you, based on your passed experiences.
             </Text>
             <View style={Styles.setting}>
               <View style={Styles.dropdown}>
@@ -155,7 +153,7 @@ class CreateList1 extends Component {
 
             <TextInput
               multiline={true}
-              placeholder='Provide a description'
+              placeholder='Provide a description. These items may be things your partner used to provide but stopped, is currently providing, or has never provided but you’d love it if they did.'
               style={Styles.addDescription}
               onChangeText={(value) => {
                 this.setState({
