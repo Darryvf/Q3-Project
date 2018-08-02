@@ -24,7 +24,7 @@ class CreateList1 extends Component {
 
   async componentWillMount() {
 
-    const listResponse = await fetch('https://relationship-backend.herokuapp.com/api/feelings')
+    const listResponse = await fetch('https://relationship-backend.herokuapp.com/api/static_feelings')
     const listJSON = await listResponse.json()
 
     let lovedList = listJSON.slice(0, 7)
@@ -62,20 +62,44 @@ class CreateList1 extends Component {
 
     console.log('working')
 
-    const sendFeeling = await fetch('https://relationship-backend.herokuapp.com/api/feelings/', {
+    const sendNewFeeling = await fetch('https://relationship-backend.herokuapp.com/api/feelings/', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json'
-      }
-    }).then(json => {
+      },
+      body: JSON.stringify(newFeeling)
+    }).then(response1 => {
 
-      const newUserFeeling = {
-        user_id: 1,
-        feeling_id: json.id
-      }
+        console.log(response1)
 
-      return json
+        const newUserFeeling = {
+          user_id: 1,
+          feeling_id: response1.id
+        }
+
+        // const sendFeeling = await fetch('https://relationship-backend.herokuapp.com/api/feelings/', {
+        //   method: 'POST',
+        //   headers: {
+        //     Accept: 'application/json',
+        //     'Content-Type': 'application/json'
+        //   },
+        //   body: JSON.stringify(newFeeling)
+        // }).then(response2 => {
+        //
+        //   console.log(response2)
+        //
+        //   const newUserFeeling = {
+        //     user_id: 1,
+        //     feeling_id: json.id
+        //   }
+        //
+        //   return json
+        // }).catch(e => {
+        //   return e
+        // })
+
+      return
     }).catch(e => {
       return e
     })
@@ -98,8 +122,9 @@ class CreateList1 extends Component {
               What are the top 3 things that make you feel loved, respected and wanted. Please comment on why each item is important to you, based on your past.
             </Text>
             <View style={Styles.setting}>
-              <View style={Styles.buttonBox}>
+              <View style={Styles.dropdown}>
                 <RNPickerSelect
+                  hideIcon={true}
                   placeholder={{
                     label: 'Choose from list...',
                     value: null

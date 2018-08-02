@@ -66,7 +66,7 @@ spacerLarge: {
     borderWidth: 1,
     borderRadius: 2,
     borderColor: 'grey',
-    width: 260,
+    width: 300,
     height: 40,
     padding: 10,
   },
@@ -106,6 +106,18 @@ spacerLarge: {
     borderRadius: 4,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+
+  dropdown: {
+    backgroundColor: 'white',
+    borderColor: 'grey',
+    borderWidth: 1,
+    height: 40,
+    width: 300,
+    borderRadius: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10
   },
 
   navigation: {
