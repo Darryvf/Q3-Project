@@ -52,11 +52,8 @@ const RootStack = createStackNavigator(
 
 	},
   {
-    initialRouteName: 'CreateList1',
+    initialRouteName: 'GetFeedback',
 
-    initialRouteName: 'CreateList1',
-
-    initialRouteName: 'User',
   },
   {
     headerMode: 'screen'

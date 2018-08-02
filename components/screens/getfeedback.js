@@ -11,6 +11,14 @@ class GetFeedback extends Component {
    header: null
  }
 
+ async componentWillMount() {
+   const listResponse = await fetch('http://localhost:3000/api/users/2/sent_scores/is_loved')
+   const listJSON = await listResponse.json()
+
+console.log(listJSON)
+
+ }
+
   render() {
     const { navigate } = this.props.navigation
     return (
