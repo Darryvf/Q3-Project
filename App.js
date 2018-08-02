@@ -52,7 +52,7 @@ const RootStack = createStackNavigator(
 
 	},
   {
-    initialRouteName: 'GetFeedback',
+    initialRouteName: 'CreateList1',
 
   },
   {
