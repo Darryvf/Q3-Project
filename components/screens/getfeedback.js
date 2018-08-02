@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Text, View, Image } from 'react-native'
+import { Text, View, Image, ScrollView } from 'react-native'
 import ButtonElement from '../elements/button.js'
 import Styles from '../styles.js'
 import BottomNav from '../elements/nav.js'
@@ -33,9 +33,12 @@ class GetFeedback extends Component {
 
     return (
       <View style={Styles.container}>
+        <ScrollView showsVerticalScrollIndicator={false}>
         <View style={Styles.header}>
         </View>
+
         <View style={Styles.body}>
+
           <Text>July, 2018</Text>
           <View style={Styles.spacerMedium}></View>
           <Text>Gives</Text>
@@ -48,19 +51,23 @@ class GetFeedback extends Component {
             />
           ))}
           <Text>Takes</Text>
-          {/* {scores.map(score => {
+          {scores.map(score => (
             <FeedbackItem
-              key={item.id}
+              key={score.id}
               name={score.name}
               feedback={score.feedback}
             />
-          })} */}
-        </View>
+          ))}
 
+        </View>
+              </ScrollView>
         <BottomNav
           press={navigate}
           />
+
       </View>
+
+
     )
   }
 }
