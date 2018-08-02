@@ -11,10 +11,11 @@ class FeedbackItem extends Component {
   render() {
 
     return (
-      <View>
-        <Text style={Styles.h1}>Quality Time - 4</Text>
+      <View style={Styles.body}>
+        <View style={Styles.spacerLarge}></View>
+        <Text style={Styles.h1}>{this.props.name}</Text>
         <View style={Styles.spacerSmall}></View>
-        <Text>This is where you give specific thoughts on how your partner did this week, and what they could do to get a higher score. Honest, constructive feedback.</Text>
+        <Text>{this.props.feedback}</Text>
       </View>
     )
   }
