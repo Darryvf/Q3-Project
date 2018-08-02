@@ -11,12 +11,12 @@ class FeedbackItem extends Component {
   render() {
 
     return (
-      <View style={Styles.body}>
-        <View style={Styles.spacerLarge}></View>
-        <Text style={Styles.h1}>{this.props.name}</Text>
-        <View style={Styles.spacerSmall}></View>
-        <Text>{this.props.feedback}</Text>
-      </View>
+        <View style={Styles.body}>
+          <View style={Styles.spacerLarge}></View>
+          <Text style={Styles.h1}>{this.props.name}</Text>
+          <View style={Styles.spacerSmall}></View>
+          <Text>{this.props.feedback}</Text>
+        </View>
     )
   }
 }
