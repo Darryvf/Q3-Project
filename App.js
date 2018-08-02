@@ -52,11 +52,11 @@ const RootStack = createStackNavigator(
 
 	},
   {
-<<<<<<< HEAD
     initialRouteName: 'CreateList1',
-=======
+
+    initialRouteName: 'CreateList1',
+
     initialRouteName: 'User',
->>>>>>> 76978e648a99feb45b588b7d24f987a0083cde12
   },
   {
     headerMode: 'screen'
