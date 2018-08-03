@@ -27,7 +27,7 @@ class ExpandedItemUser extends Component {
         user={this.state.user}
         press={navigate}
         screen="AddDescription"
-        back="Couple"
+        back="Couple1"
         />
     )
   }

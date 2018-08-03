@@ -36,7 +36,7 @@ class AddPartner extends Component {
 
     let responseJSON = await response.json()
 
-    navigate('Couple')
+    navigate('Couple1')
  }
 
   render() {

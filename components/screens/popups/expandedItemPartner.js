@@ -26,7 +26,7 @@ class ExpandedItemPartner extends Component {
         buttonText="Edit Reason"
         user={this.state.user}
         press={navigate}
-        back="Couple"
+        back="Couple1"
         />
     )
   }
