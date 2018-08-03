@@ -34,6 +34,8 @@ import Login from './components/screens/setup/login.js'
 import AddPartner from './components/screens/setup/addPartner.js'
 import EditAccount from './components/screens/setup/editAccount.js'
 import AddDescription from './components/screens/setup/addDescription.js'
+import LandingPage from './components/LandingPage.js'
+
 
 
 // Popups
@@ -73,15 +75,12 @@ const RootStack = createStackNavigator(
 		Give4: Give4,
 		Give5: Give5,
 		Give6: Give6,
+		LandingPage: LandingPage,
 
 	},
   {
 
-    initialRouteName: 'EditAccount'
-
-    initialRouteName: 'Login'
-
-    initialRouteName: 'Couple2'
+    initialRouteName: 'LandingPage'
 
   },
   {
