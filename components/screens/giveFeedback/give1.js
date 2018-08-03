@@ -8,16 +8,25 @@ class Give1 extends Component {
   constructor(props){
     super(props)
     this.state = {
-
+      value: 0
     }
   }
 
   static navigationOptions = {
    header: null
+  }
+
+  sliderChange(value) {
+   this.setState(() => {
+      return {
+        value: parseFloat(value),
+      }
+    })
  }
 
   render() {
     const { navigate } = this.props.navigation
+    const {value} = this.state
     return (
       <View style={Styles.container}>
         <View style={Styles.header}></View>
@@ -38,7 +47,7 @@ class Give1 extends Component {
                 style={Styles.smile}
                 source={require('../../../assets/img/frown.png')}
               />
-              <Text style={Styles.h2}>4</Text>
+              <Text style={Styles.h2}>{this.state.value}</Text>
               <Image
                 style={Styles.smile}
                 source={require('../../../assets/img/smile.png')}
@@ -49,8 +58,12 @@ class Give1 extends Component {
 
             <View style ={Styles.sliderContainer}>
               <Slider
+                // maximumTrackTintColor="pink"
+                minimumTrackTintColor="#30E7CE"
                 step={1}
-                maximumValue={10}>
+                maximumValue={10}
+                onValueChange={this.sliderChange.bind(this)}
+                value={value}>
               </Slider>
             </View>
 
@@ -69,7 +82,8 @@ class Give1 extends Component {
               <ButtonElement
                 buttonText="Next"
                 press={navigate}
-                screen="Give2"/>
+                screen="Give2"
+                onValueChange={(e) => this.sliderChange(e.target.value)}/>
             </View>
           </View>
         </View>

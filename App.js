@@ -22,6 +22,10 @@ import EditList from './components/screens/editList.js'
 import GetFeedback from './components/screens/getfeedback.js'
 import Give1 from './components/screens/giveFeedback/give1.js'
 import Give2 from './components/screens/giveFeedback/give2.js'
+import Give3 from './components/screens/giveFeedback/give3.js'
+import Give4 from './components/screens/giveFeedback/give4.js'
+import Give5 from './components/screens/giveFeedback/give5.js'
+import Give6 from './components/screens/giveFeedback/give6.js'
 
 // Setup
 
@@ -65,6 +69,10 @@ const RootStack = createStackNavigator(
 		ExpandedItemPartner: ExpandedItemPartner,
 		Give1: Give1,
 		Give2: Give2,
+		Give3: Give3,
+		Give4: Give4,
+		Give5: Give5,
+		Give6: Give6,
 
 	},
   {
