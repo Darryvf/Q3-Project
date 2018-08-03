@@ -84,7 +84,7 @@ class Give6 extends Component {
                 <ButtonElement
                   buttonText="Save"
                   press={navigate}
-                  screen="Couple"
+                  screen="Couple1"
                   onValueChange={(e) => this.sliderChange(e.target.value)}/>
             </View>
           </View>

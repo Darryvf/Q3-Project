@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Text, View, Image, ScrollView } from 'react-native'
+import { Text, View, Image, ScrollView, TouchableOpacity } from 'react-native'
 import ButtonElement from '../elements/button.js'
 import Styles from '../styles.js'
 import BottomNav from '../elements/nav.js'
@@ -35,6 +35,14 @@ class GetFeedback extends Component {
       <View style={Styles.container}>
         <ScrollView showsVerticalScrollIndicator={false}>
         <View style={Styles.header}>
+          <TouchableOpacity
+            onPress={() => navigate('User1')}
+            >
+            <Image
+              style={Styles.closeButton}
+              source={require('../../assets/img/CloseButton.png')}
+            />
+          </TouchableOpacity>
         </View>
 
         <View style={Styles.body}>

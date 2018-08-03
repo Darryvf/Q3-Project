@@ -80,7 +80,7 @@ class Give2 extends Component {
 
             <View style={Styles.giveCenter}>
                 <ButtonElement
-                  buttonText="Save"
+                  buttonText="Next"
                   press={navigate}
                   screen="Give3"
                   onValueChange={(e) => this.sliderChange(e.target.value)}/>
