@@ -24,6 +24,8 @@ class EditAccount extends Component {
       header="Edit Account"
       buttonText="Save"
       account={this.state.account}
+      press={navigate}
+      screen="User1"
       />
     )
   }

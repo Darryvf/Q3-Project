@@ -39,7 +39,7 @@ class RemovePartner extends Component {
         <View style={Styles.container}>
           <View style={Styles.header}>
             <TouchableOpacity
-              onPress={() => navigate('User')}
+              onPress={() => navigate('User1')}
               >
               <Image
                 style={Styles.closeButton}
