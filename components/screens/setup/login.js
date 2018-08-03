@@ -72,7 +72,7 @@ class Login extends Component {
               <ButtonElement
                 buttonText="Login"
                 press={navigate}
-                screen="Couple"
+                screen="Couple1"
               />
             </View>
             <View style={Styles.spacerSmall}></View>

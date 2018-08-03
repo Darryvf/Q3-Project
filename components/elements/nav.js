@@ -15,7 +15,7 @@ class BottomNav extends Component {
       <View style={Styles.navigation}>
         <NavItem
           press={this.props.press}
-          screen="Couple"
+          screen="Couple1"
           src={require('../../assets/img/couple.png')}/>
         <NavItem
           press={this.props.press}
