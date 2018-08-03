@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import { Text, TextInput, Button, View, Image } from 'react-native'
-import ButtonElement from '../elements/button.js'
+import { Text, TextInput, View, Image } from 'react-native'
+import Button from 'react-native-button'
 import ListItem from '../elements/listItem.js'
 import Styles from '../styles.js'
 import RNPickerSelect from 'react-native-picker-select';
@@ -16,19 +16,19 @@ class CreateList5 extends Component {
 
      this.state = {
          gives: '',
-         items: []
+         items: [],
+         new: [],
+         progress: []
      }
  }
 
   async componentWillMount() {
 
-    const listResponse = await fetch('https://relationship-backend.herokuapp.com/api/feelings')
+    const listResponse = await fetch('https://relationship-backend.herokuapp.com/api/static_feelings')
     const listJSON = await listResponse.json()
 
-    let lovedList = listJSON.slice(0, 7)
-
+    let lovedList = listJSON.slice(7, 14)
     let items = []
-
 
     lovedList.map((item) => {
       let obj = {
@@ -39,72 +39,129 @@ class CreateList5 extends Component {
     })
 
     this.setState({items: items})
-
-    console.log("state", this.state)
   }
 
-  newItem = () => {
-    console.log('this creates a new item')
-  }
+  onSubmit = async (navigate) => {
 
-  onSubmit = () => {
-    console.log('this sends the entire list to the database')
+    const newFeeling = {
+      description: null,
+      is_loved: true,
+      is_default: true
+    }
+
+    if(this.state.new.length){
+      newFeeling.name = this.state.new
+      newFeeling.is_default = false
+    } else {
+      newFeeling.name = this.state.suggested
+    }
+
+    if(this.state.description){
+      newFeeling.description = this.state.description
+    }
+
+      const response1 = await fetch('http://localhost:3000/api/feelings', {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newFeeling)
+      })
+
+
+    let response1JSON = await response1.json()
+
+
+    const newUserFeeling = {
+      user_id: 1,
+      feeling_id: response1JSON[0]
+    }
+
+
+    const response2 = await fetch('http://localhost:3000/api/users/1/feelings', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json'
+      },
+        body: JSON.stringify(newUserFeeling)
+      })
+
+      let response2JSON = await response2.json()
+      console.log(response2)
+
+      navigate('CreateList6')
   }
 
   render() {
-
+    const { navigate } = this.props.navigation
     return (
       <View style={Styles.container}>
-        <View style={Styles.backHeader}>
-          <Image
-            style={Styles.backButton}
-            source={require('../../assets/img/backButton.png')}
-          />
+        <View style={Styles.header}>
         </View>
         <View style={Styles.body}>
           <View style={Styles.createList}>
             <Text
               style={Styles.h1}>
-              Gives: 1
+              Takes: 2
             </Text>
             <Text
               style={Styles.pCenter}>
-              What are the top 3 things that make you feel loved, respected and wanted. Please comment on why each item is important to you, based on your past.
+              What are the top 3 things that make you feel unloved, disrespected, and unwanted? Also, please comment on why each item is difficult for you based on your past.
             </Text>
             <View style={Styles.setting}>
-              <View style={Styles.buttonBox}>
+              <View style={Styles.dropdown}>
                 <RNPickerSelect
+                  hideIcon={true}
+                  placeholder={{
+                    label: 'Choose from list...',
+                    value: null
+                  }}
                   items={this.state.items}
                   onValueChange={(value) => {
                     this.setState({
-                      [value]: value,
-                    });
+                      suggested: value,
+                    })
                   }}>
                 </RNPickerSelect>
               </View>
             </View>
 
-          <View style={Styles.spacerMedium}></View>
+            <View style={Styles.spacerSmall}></View>
 
-          <View style={Styles.createList}>
             <TextInput
-              placeholder='Create your own...'
-              style={Styles.textInput}>
+              placeholder='Or create your own...'
+              style={Styles.textInput}
+              onChangeText={(value) => {
+                this.setState({
+                  new: value,
+                })
+              }}>
             </TextInput>
-          </View>
-          <View style={Styles.createList}>
+
+            <View style={Styles.spacerSmall}></View>
+
             <TextInput
-              placeholder='Provide a description'
-              style={Styles.textInput}>
+              multiline={true}
+              placeholder='Provide a description. These items may be things your partner used to provide but stopped, is currently providing, or has never provided but you’d love it if they did.'
+              style={Styles.addDescription}
+              onChangeText={(value) => {
+                this.setState({
+                  description: value,
+                })
+              }}>
             </TextInput>
-          </View>
-          <View style={Styles.spacerLarge}></View>
+
+            <View style={Styles.spacerMedium}></View>
+
             <View style={Styles.sendFeedback}>
-              <ButtonElement
-                buttonText='Next'
+              <Button
+                style={Styles.buttonText}
                 containerStyle={Styles.buttonBox}
-                onPress={this.onSubmit}
-                style={Styles.buttonText}/>
+                onPress={()=> this.onSubmit(navigate) }
+              >Next
+              </Button>
             </View>
           </View>
         </View>

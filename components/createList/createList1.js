@@ -12,7 +12,7 @@ class CreateList1 extends Component {
  }
 
  constructor(props) {
-     super(props);
+     super(props)
 
      this.state = {
          gives: '',
@@ -41,7 +41,7 @@ class CreateList1 extends Component {
     this.setState({items: items})
   }
 
-  onSubmit = async () => {
+  onSubmit = async (navigate) => {
 
     const newFeeling = {
       description: null,
@@ -91,10 +91,11 @@ class CreateList1 extends Component {
       let response2JSON = await response2.json()
       console.log(response2)
 
+      navigate('CreateList2')
   }
 
   render() {
-
+    const { navigate } = this.props.navigation
     return (
       <View style={Styles.container}>
         <View style={Styles.header}>
@@ -158,7 +159,7 @@ class CreateList1 extends Component {
               <Button
                 style={Styles.buttonText}
                 containerStyle={Styles.buttonBox}
-                onPress={()=> this.onSubmit() }
+                onPress={()=> this.onSubmit(navigate) }
               >Next
               </Button>
             </View>
