@@ -74,7 +74,7 @@ const RootStack = createStackNavigator(
 
 	},
   {
-    initialRouteName: 'Give6'
+    initialRouteName: 'Login'
   },
   {
     headerMode: 'screen'
