@@ -76,7 +76,13 @@ const RootStack = createStackNavigator(
 
 	},
   {
+
     initialRouteName: 'EditAccount'
+
+    initialRouteName: 'Login'
+
+    initialRouteName: 'Couple2'
+
   },
   {
     headerMode: 'screen'
