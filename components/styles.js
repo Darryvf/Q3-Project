@@ -235,6 +235,13 @@ spacerLarge: {
     borderRadius:100/2
   },
 
+  profilePic2: {
+    height: 100,
+    width: 100,
+    borderRadius:100/2,
+    opacity: 20/100
+  },
+
   plusMinus: {
     height: 30,
     width: 30

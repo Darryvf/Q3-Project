@@ -4,8 +4,9 @@ import { createStackNavigator } from 'react-navigation'
 
 // Screens
 
-import Couple from './components/screens/couple.js'
-import User from './components/screens/user.js'
+import Couple1 from './components/screens/couple1.js'
+import Couple2 from './components/screens/couple2.js'
+import User1 from './components/screens/user1.js'
 
 
 import CreateList1 from './components/createList/createList1.js'
@@ -50,8 +51,9 @@ const RootStack = createStackNavigator(
 		Login: Login,
 		AddPartner: AddPartner,
 		EditAccount: EditAccount,
-		Couple: Couple,
-		User: User,
+		Couple1: Couple1,
+		Couple2: Couple2,
+		User1: User1,
 		CreateList1: CreateList1,
 		CreateList2: CreateList2,
 		CreateList3: CreateList3,
@@ -74,7 +76,7 @@ const RootStack = createStackNavigator(
 
 	},
   {
-    initialRouteName: 'GetFeedback'
+    initialRouteName: 'Couple2'
   },
   {
     headerMode: 'screen'
