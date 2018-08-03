@@ -14,10 +14,11 @@ class LandingPage extends Component {
     return (
       <View>
       <Image
-        source={require('../assets/img/partner1.png')}
+        source={require('../assets/img/splash.svg')}
+        style={{width: '100%', height: '100%'}}
       />
 
-
+        <Text>Hello's</Text>
     </View>
     )
   }

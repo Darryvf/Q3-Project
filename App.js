@@ -80,7 +80,7 @@ const RootStack = createStackNavigator(
 	},
   {
 
-    initialRouteName: 'User1'
+    initialRouteName: 'LandingPage'
 
   },
   {
