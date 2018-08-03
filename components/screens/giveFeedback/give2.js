@@ -79,11 +79,11 @@ class Give2 extends Component {
           <View style={Styles.spacerLarge}></View>
 
             <View style={Styles.giveCenter}>
-              <ButtonElement
-                buttonText="Save"
-                press={navigate}
-                screen="Couple"
-                onValueChange={(e) => this.sliderChange(e.target.value)}/>
+                <ButtonElement
+                  buttonText="Save"
+                  press={navigate}
+                  screen="Give3"
+                  onValueChange={(e) => this.sliderChange(e.target.value)}/>
             </View>
           </View>
         </View>
