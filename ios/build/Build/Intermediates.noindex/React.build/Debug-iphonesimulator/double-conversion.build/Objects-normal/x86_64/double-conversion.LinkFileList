@@ -1,4 +1,14 @@
 <<<<<<< HEAD
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum-dtoa.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/cached-powers.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/diy-fp.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/double-conversion.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fast-dtoa.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fixed-dtoa.o
+/Users/mpizarro34/G89/workspace/q3/q3Project/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/strtod.o
+=======
+<<<<<<< HEAD
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum-dtoa.o
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/bignum.o
 /Users/darrellvanfleet/g89/Q3/Q3-Project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/cached-powers.o
@@ -17,3 +27,4 @@
 /Users/aimeezawacki/code/q3/Q3-project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/fixed-dtoa.o
 /Users/aimeezawacki/code/q3/Q3-project/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/Objects-normal/x86_64/strtod.o
 >>>>>>> f55187313f2bf29fe3681f0c107131b460837811
+>>>>>>> e3b58cad1c77094a684c0d57f4f4c7bd41b5979e
